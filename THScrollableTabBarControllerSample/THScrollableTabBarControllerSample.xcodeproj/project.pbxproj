@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		858EAA0B1561EAEA007EC173 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858EAA0A1561EAEA007EC173 /* UIKit.framework */; };
+		858EAA0D1561EAEA007EC173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858EAA0C1561EAEA007EC173 /* Foundation.framework */; };
+		858EAA0F1561EAEB007EC173 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858EAA0E1561EAEA007EC173 /* CoreGraphics.framework */; };
+		858EAA151561EAEB007EC173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858EAA131561EAEB007EC173 /* InfoPlist.strings */; };
+		858EAA171561EAEB007EC173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 858EAA161561EAEB007EC173 /* main.m */; };
+		858EAA1B1561EAEB007EC173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 858EAA1A1561EAEB007EC173 /* AppDelegate.m */; };
+		858EAA261561EBAC007EC173 /* InfiniTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 858EAA251561EBAC007EC173 /* InfiniTabBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		858EAA2A1561EC1A007EC173 /* THScrollableTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858EAA291561EC1A007EC173 /* THScrollableTabBarController.m */; };
+		858EAA2F1561EE98007EC173 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 858EAA2D1561EE98007EC173 /* ViewController1.m */; };
+		858EAA301561EE98007EC173 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858EAA2E1561EE98007EC173 /* ViewController1.xib */; };
+		858EAA341561EEA2007EC173 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 858EAA321561EEA1007EC173 /* ViewController2.m */; };
+		858EAA351561EEA2007EC173 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858EAA331561EEA2007EC173 /* ViewController2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		858EAA061561EAEA007EC173 /* THScrollableTabBarControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THScrollableTabBarControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858EAA0A1561EAEA007EC173 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		858EAA0C1561EAEA007EC173 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		858EAA0E1561EAEA007EC173 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		858EAA121561EAEB007EC173 /* THScrollableTabBarControllerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THScrollableTabBarControllerSample-Info.plist"; sourceTree = "<group>"; };
+		858EAA141561EAEB007EC173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858EAA161561EAEB007EC173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		858EAA181561EAEB007EC173 /* THScrollableTabBarControllerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THScrollableTabBarControllerSample-Prefix.pch"; sourceTree = "<group>"; };
+		858EAA191561EAEB007EC173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		858EAA1A1561EAEB007EC173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		858EAA241561EBAC007EC173 /* InfiniTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfiniTabBar.h; path = ../../InfiniTabBar.h; sourceTree = "<group>"; };
+		858EAA251561EBAC007EC173 /* InfiniTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfiniTabBar.m; path = ../../InfiniTabBar.m; sourceTree = "<group>"; };
+		858EAA281561EC1A007EC173 /* THScrollableTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THScrollableTabBarController.h; path = ../../THScrollableTabBarController.h; sourceTree = "<group>"; };
+		858EAA291561EC1A007EC173 /* THScrollableTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THScrollableTabBarController.m; path = ../../THScrollableTabBarController.m; sourceTree = "<group>"; };
+		858EAA2C1561EE98007EC173 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		858EAA2D1561EE98007EC173 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		858EAA2E1561EE98007EC173 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		858EAA311561EEA1007EC173 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		858EAA321561EEA1007EC173 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		858EAA331561EEA2007EC173 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858EAA031561EAEA007EC173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858EAA0B1561EAEA007EC173 /* UIKit.framework in Frameworks */,
+				858EAA0D1561EAEA007EC173 /* Foundation.framework in Frameworks */,
+				858EAA0F1561EAEB007EC173 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858EA9FB1561EAEA007EC173 = {
+			isa = PBXGroup;
+			children = (
+				858EAA101561EAEB007EC173 /* THScrollableTabBarControllerSample */,
+				858EAA091561EAEA007EC173 /* Frameworks */,
+				858EAA071561EAEA007EC173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858EAA071561EAEA007EC173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858EAA061561EAEA007EC173 /* THScrollableTabBarControllerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858EAA091561EAEA007EC173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858EAA0A1561EAEA007EC173 /* UIKit.framework */,
+				858EAA0C1561EAEA007EC173 /* Foundation.framework */,
+				858EAA0E1561EAEA007EC173 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858EAA101561EAEB007EC173 /* THScrollableTabBarControllerSample */ = {
+			isa = PBXGroup;
+			children = (
+				858EAA2B1561EC26007EC173 /* THScrollableTabBarController */,
+				858EAA191561EAEB007EC173 /* AppDelegate.h */,
+				858EAA1A1561EAEB007EC173 /* AppDelegate.m */,
+				858EAA2C1561EE98007EC173 /* ViewController1.h */,
+				858EAA2D1561EE98007EC173 /* ViewController1.m */,
+				858EAA2E1561EE98007EC173 /* ViewController1.xib */,
+				858EAA311561EEA1007EC173 /* ViewController2.h */,
+				858EAA321561EEA1007EC173 /* ViewController2.m */,
+				858EAA331561EEA2007EC173 /* ViewController2.xib */,
+				858EAA111561EAEB007EC173 /* Supporting Files */,
+			);
+			path = THScrollableTabBarControllerSample;
+			sourceTree = "<group>";
+		};
+		858EAA111561EAEB007EC173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				858EAA121561EAEB007EC173 /* THScrollableTabBarControllerSample-Info.plist */,
+				858EAA131561EAEB007EC173 /* InfoPlist.strings */,
+				858EAA161561EAEB007EC173 /* main.m */,
+				858EAA181561EAEB007EC173 /* THScrollableTabBarControllerSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		858EAA2B1561EC26007EC173 /* THScrollableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				858EAA241561EBAC007EC173 /* InfiniTabBar.h */,
+				858EAA251561EBAC007EC173 /* InfiniTabBar.m */,
+				858EAA281561EC1A007EC173 /* THScrollableTabBarController.h */,
+				858EAA291561EC1A007EC173 /* THScrollableTabBarController.m */,
+			);
+			name = THScrollableTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858EAA051561EAEA007EC173 /* THScrollableTabBarControllerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858EAA1E1561EAEB007EC173 /* Build configuration list for PBXNativeTarget "THScrollableTabBarControllerSample" */;
+			buildPhases = (
+				858EAA021561EAEA007EC173 /* Sources */,
+				858EAA031561EAEA007EC173 /* Frameworks */,
+				858EAA041561EAEA007EC173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THScrollableTabBarControllerSample;
+			productName = THScrollableTabBarControllerSample;
+			productReference = 858EAA061561EAEA007EC173 /* THScrollableTabBarControllerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858EA9FD1561EAEA007EC173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Cogini;
+			};
+			buildConfigurationList = 858EAA001561EAEA007EC173 /* Build configuration list for PBXProject "THScrollableTabBarControllerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858EA9FB1561EAEA007EC173;
+			productRefGroup = 858EAA071561EAEA007EC173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858EAA051561EAEA007EC173 /* THScrollableTabBarControllerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858EAA041561EAEA007EC173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858EAA151561EAEB007EC173 /* InfoPlist.strings in Resources */,
+				858EAA301561EE98007EC173 /* ViewController1.xib in Resources */,
+				858EAA351561EEA2007EC173 /* ViewController2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858EAA021561EAEA007EC173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858EAA171561EAEB007EC173 /* main.m in Sources */,
+				858EAA1B1561EAEB007EC173 /* AppDelegate.m in Sources */,
+				858EAA261561EBAC007EC173 /* InfiniTabBar.m in Sources */,
+				858EAA2A1561EC1A007EC173 /* THScrollableTabBarController.m in Sources */,
+				858EAA2F1561EE98007EC173 /* ViewController1.m in Sources */,
+				858EAA341561EEA2007EC173 /* ViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858EAA131561EAEB007EC173 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858EAA141561EAEB007EC173 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858EAA1C1561EAEB007EC173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		858EAA1D1561EAEB007EC173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858EAA1F1561EAEB007EC173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THScrollableTabBarControllerSample/THScrollableTabBarControllerSample-Prefix.pch";
+				INFOPLIST_FILE = "THScrollableTabBarControllerSample/THScrollableTabBarControllerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858EAA201561EAEB007EC173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THScrollableTabBarControllerSample/THScrollableTabBarControllerSample-Prefix.pch";
+				INFOPLIST_FILE = "THScrollableTabBarControllerSample/THScrollableTabBarControllerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858EAA001561EAEA007EC173 /* Build configuration list for PBXProject "THScrollableTabBarControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858EAA1C1561EAEB007EC173 /* Debug */,
+				858EAA1D1561EAEB007EC173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858EAA1E1561EAEB007EC173 /* Build configuration list for PBXNativeTarget "THScrollableTabBarControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858EAA1F1561EAEB007EC173 /* Debug */,
+				858EAA201561EAEB007EC173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858EA9FD1561EAEA007EC173 /* Project object */;
+}
